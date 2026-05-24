@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var owner1: Owner? = Owner()
+    var owner1: Person? = Person()
     var pet1: Pet? = Pet()
 
     override func viewDidLoad() {
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
     func sleep(){
         print("sleep Ankita")
-        print("sleep Ankita222222")
+        print("sleep Ankita23")
     }
 }
 
