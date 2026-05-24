@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
 }
 
-class Owner {
+class Person {
     var name: String?
     var pet: Pet?
     
@@ -43,9 +43,9 @@ class Owner {
 }
 
 class Pet {
-    weak var owner: Owner?
+    weak var owner: Person?
     
-    init(owner: Owner? = nil) {
+    init(owner: Person? = nil) {
         self.owner = owner
         print("init Pet")
     }
