@@ -15,5 +15,8 @@ class ViewController: UIViewController {
     }
 
 
+    func sleep(){
+        print("sleep Ankita")
+    }
 }
 
